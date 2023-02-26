@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{4C568130-6B2E-4825-BBB0-5970CACEE086}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>OSS_Client</RootNamespace>
+        <AssemblyName>OSS_Client</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Aliyun.OSS, Version=2.13.0.0, Culture=neutral, PublicKeyToken=0ad4175f0dac0b9b">
+          <HintPath>Plguins\Aliyun.OSS.dll</HintPath>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Config\HashObject.cs" />
+        <Compile Include="OSSHelper.cs" />
+        <Compile Include="Plguins\Demo\AppendObjectSample.cs" />
+        <Compile Include="Plguins\Demo\CNameSample.cs" />
+        <Compile Include="Plguins\Demo\Config.cs" />
+        <Compile Include="Plguins\Demo\CopyObjectSample.cs" />
+        <Compile Include="Plguins\Demo\CreateBucketSample.cs" />
+        <Compile Include="Plguins\Demo\CreateEmptyFolderSample.cs" />
+        <Compile Include="Plguins\Demo\DeleteBucketCorsSample.cs" />
+        <Compile Include="Plguins\Demo\DeleteBucketLoggingSample.cs" />
+        <Compile Include="Plguins\Demo\DeleteBucketSample.cs" />
+        <Compile Include="Plguins\Demo\DeleteBucketWetbsiteSample.cs" />
+        <Compile Include="Plguins\Demo\DeleteObjectsSample.cs" />
+        <Compile Include="Plguins\Demo\DoesBucketExistSample.cs" />
+        <Compile Include="Plguins\Demo\DoesObjectExistSample.cs" />
+        <Compile Include="Plguins\Demo\GetBucketAclSample.cs" />
+        <Compile Include="Plguins\Demo\GetBucketCorsSample.cs" />
+        <Compile Include="Plguins\Demo\GetBucketLifecycleSample.cs" />
+        <Compile Include="Plguins\Demo\GetBucketLoggingSample.cs" />
+        <Compile Include="Plguins\Demo\GetBucketRefererSample.cs" />
+        <Compile Include="Plguins\Demo\GetBucketWetbsiteSample.cs" />
+        <Compile Include="Plguins\Demo\GetObjectAclSample.cs" />
+        <Compile Include="Plguins\Demo\GetObjectByRangeSample.cs" />
+        <Compile Include="Plguins\Demo\GetObjectSample.cs" />
+        <Compile Include="Plguins\Demo\ImageProcessSample.cs" />
+        <Compile Include="Plguins\Demo\ListBucketsSample.cs" />
+        <Compile Include="Plguins\Demo\ListObjectsSample.cs" />
+        <Compile Include="Plguins\Demo\LIveChannelSample.cs" />
+        <Compile Include="Plguins\Demo\ModifyObjectMetaSample.cs" />
+        <Compile Include="Plguins\Demo\MultipartUploadSample.cs" />
+        <Compile Include="Plguins\Demo\PostPolicySample.cs" />
+        <Compile Include="Plguins\Demo\ProgressSample.cs" />
+        <Compile Include="Plguins\Demo\PutObjectSample.cs" />
+        <Compile Include="Plguins\Demo\RestoreArchiveObjectSample.cs" />
+        <Compile Include="Plguins\Demo\ResumableSample.cs" />
+        <Compile Include="Plguins\Demo\SetBucketAclSample.cs" />
+        <Compile Include="Plguins\Demo\SetBucketCorsSample.cs" />
+        <Compile Include="Plguins\Demo\SetBucketLifecycleSample.cs" />
+        <Compile Include="Plguins\Demo\SetBucketLoggingSample.cs" />
+        <Compile Include="Plguins\Demo\SetBucketRefererSample.cs" />
+        <Compile Include="Plguins\Demo\SetBucketWetbsiteSample.cs" />
+        <Compile Include="Plguins\Demo\SetObjectAclSample.cs" />
+        <Compile Include="Plguins\Demo\UploadCallbackSample.cs" />
+        <Compile Include="Plguins\Demo\UrlSignatureSample.cs" />
+        <Compile Include="Program.cs" />
+        <Compile Include="Config\ConfigYml.cs" />
+        <Compile Include="Config\Endpoints.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Plguins\Aliyun.OSS.dll" />
+      <Content Include="Plguins\Aliyun.OSS.pdb" />
+      <Content Include="Template\putTmp.txt" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Communal\Communal.csproj">
+        <Project>{5eccbf71-4638-4f73-9a26-4fd52b80bfba}</Project>
+        <Name>Communal</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>

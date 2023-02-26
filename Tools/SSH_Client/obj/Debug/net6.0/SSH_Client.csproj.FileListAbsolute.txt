@@ -1,0 +1,12 @@
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\SSH_Client.deps.json
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\SSH_Client.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\ref\SSH_Client.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\SSH_Client.pdb
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.csproj.AssemblyReference.cache
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.AssemblyInfoInputs.cache
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.AssemblyInfo.cs
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\ref\SSH_Client.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.pdb

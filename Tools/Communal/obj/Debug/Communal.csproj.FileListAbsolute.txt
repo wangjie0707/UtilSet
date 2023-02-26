@@ -1,0 +1,8 @@
+D:\WorkSpaces\Daily\UtilSet\Tools\Communal\bin\Debug\Communal.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\Communal\bin\Debug\Communal.pdb
+D:\WorkSpaces\Daily\UtilSet\Tools\Communal\bin\Debug\Json.Net.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\Communal\obj\Debug\Communal.csproj.AssemblyReference.cache
+D:\WorkSpaces\Daily\UtilSet\Tools\Communal\obj\Debug\Communal.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Daily\UtilSet\Tools\Communal\obj\Debug\Communal.csproj.CopyComplete
+D:\WorkSpaces\Daily\UtilSet\Tools\Communal\obj\Debug\Communal.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\Communal\obj\Debug\Communal.pdb
