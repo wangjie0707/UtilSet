@@ -10,3 +10,13 @@ D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.csproj.
 D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.dll
 D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\ref\SSH_Client.dll
 D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.pdb
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\Communal.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\Json.Net.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\Communal.pdb
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.csproj.CopyComplete
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\SSH_Client.exe
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\SSH_Client.runtimeconfig.json
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\Renci.SshNet.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\bin\Debug\net6.0\SshNet.Security.Cryptography.dll
+D:\WorkSpaces\Daily\UtilSet\Tools\SSH_Client\obj\Debug\net6.0\SSH_Client.genruntimeconfig.cache

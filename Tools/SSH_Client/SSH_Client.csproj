@@ -4,6 +4,16 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <OutputType>Exe</OutputType>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Communal\Communal.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ICSharpCode.SharpZipLib.dll" Version="0.85.4.369" />
+      <PackageReference Include="SSH.NET" Version="2020.0.2" />
+    </ItemGroup>
 
 </Project>

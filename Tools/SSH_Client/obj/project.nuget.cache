@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "mnTmhs/RlMQ3fW1CxqsettDTehiUL/qvmUm2oHF0PBm43FinbxcqiXVhm3sU4N6YZxFvqd87n974/BGbYy4uFA==",
+  "dgSpecHash": "EREa6fl40GEr/vy4fbdMAU2UY/3qoPmXTnIPSJmFj8ESRmuleoMD2hl+WXGP+q5iE6xcW+co1pd3vYBLMOvfIw==",
   "success": true,
   "projectFilePath": "D:\\WorkSpaces\\Daily\\UtilSet\\Tools\\SSH_Client\\SSH_Client.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\13644\\.nuget\\packages\\icsharpcode.sharpziplib.dll\\0.85.4.369\\icsharpcode.sharpziplib.dll.0.85.4.369.nupkg.sha512",
+    "C:\\Users\\13644\\.nuget\\packages\\ssh.net\\2020.0.2\\ssh.net.2020.0.2.nupkg.sha512",
+    "C:\\Users\\13644\\.nuget\\packages\\sshnet.security.cryptography\\1.3.0\\sshnet.security.cryptography.1.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ICSharpCode.SharpZipLib.dll 0.85.4.369' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ICSharpCode.SharpZipLib.dll",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
